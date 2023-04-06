@@ -1,0 +1,32 @@
+{
+  "name": "rhea-fe",
+  "version": "0.0.1",
+  "description": "A web application front-end for tracking group trial progress.",
+  "author": {
+    "name": "Anthony Jackman",
+    "email": "anthony.jackman@serco-na.com",
+    "url": "https://linkedin.com/in/anthony-jackman-60b59110/"
+  },
+  "bugs": {
+    "url": "https://github.com/anthony-jackman/rhea/issues"
+  },
+  "homepage": "https://github.com/anthony-jackman/rhea#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthony-jackman/rhea.git"
+  },
+  "keywords": [
+    "distance-learning",
+    "vuejs",
+    "evaluation"
+  ],
+  "engines": {
+    "node": "~18.14.0",
+    "npm": "~9.3.1"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "postinstall": "git config core.hooksPath ./.ghooks",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
